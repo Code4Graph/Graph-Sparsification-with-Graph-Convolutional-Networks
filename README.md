@@ -1,4 +1,4 @@
 ## Graph Sparsification with Graph Convolutional Networks
-1. run pretrain_scgn (original code from kipf) to get the pretrain weights
-2. put the weights into sgcn and run the code in the sgcn folder
-3. obtain adj_0 matrix and apply it into gcn+sgcn
+1. run __train.py__ inside the folder __pretrain_scgn__ (original code from kipf) to get the pretrain weights which are saved as npy files.
+2. put the weights npy files into the folder __sgcn__ and run the __train-auto-admm-tuneParameter.py__ which saves the sparsified adjacency matrix as __adj_0 matri.npy__.
+3. put the __adj_0 matrix.npy__ into the folder __gcn+sgcn__ and run the __train2.py__ which shows the performance of sgcn_gcn.
