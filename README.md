@@ -1,1 +1,1 @@
-## Graph-Sparsification-with-Graph-Convolutional-Networks
+## Graph Sparsification with Graph Convolutional Networks
